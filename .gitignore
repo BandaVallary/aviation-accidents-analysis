@@ -1,0 +1,5 @@
+#ignore ALL .log files
+*.log
+*.csv
+.ipynb_checkpoints/
+.ipynb_checkpoints/
