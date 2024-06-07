@@ -55,297 +55,12 @@ df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Event.Id</th>
-      <th>Investigation.Type</th>
-      <th>Accident.Number</th>
-      <th>Event.Date</th>
-      <th>Location</th>
-      <th>Country</th>
-      <th>Latitude</th>
-      <th>Longitude</th>
-      <th>Airport.Code</th>
-      <th>Airport.Name</th>
-      <th>Injury.Severity</th>
-      <th>Aircraft.damage</th>
-      <th>Aircraft.Category</th>
-      <th>Registration.Number</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Amateur.Built</th>
-      <th>Number.of.Engines</th>
-      <th>Engine.Type</th>
-      <th>FAR.Description</th>
-      <th>Schedule</th>
-      <th>Purpose.of.flight</th>
-      <th>Air.carrier</th>
-      <th>Total.Fatal.Injuries</th>
-      <th>Total.Serious.Injuries</th>
-      <th>Total.Minor.Injuries</th>
-      <th>Total.Uninjured</th>
-      <th>Weather.Condition</th>
-      <th>Broad.phase.of.flight</th>
-      <th>Report.Status</th>
-      <th>Publication.Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>20001218X45444</td>
-      <td>Accident</td>
-      <td>SEA87LA080</td>
-      <td>1948-10-24</td>
-      <td>MOOSE CREEK, ID</td>
-      <td>United States</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Fatal(2)</td>
-      <td>Destroyed</td>
-      <td>NaN</td>
-      <td>NC6404</td>
-      <td>Stinson</td>
-      <td>108-3</td>
-      <td>No</td>
-      <td>1.0</td>
-      <td>Reciprocating</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Personal</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Cruise</td>
-      <td>Probable Cause</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>20001218X45447</td>
-      <td>Accident</td>
-      <td>LAX94LA336</td>
-      <td>1962-07-19</td>
-      <td>BRIDGEPORT, CA</td>
-      <td>United States</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Fatal(4)</td>
-      <td>Destroyed</td>
-      <td>NaN</td>
-      <td>N5069P</td>
-      <td>Piper</td>
-      <td>PA24-180</td>
-      <td>No</td>
-      <td>1.0</td>
-      <td>Reciprocating</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Personal</td>
-      <td>NaN</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Unknown</td>
-      <td>Probable Cause</td>
-      <td>19-09-1996</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20061025X01555</td>
-      <td>Accident</td>
-      <td>NYC07LA005</td>
-      <td>1974-08-30</td>
-      <td>Saltville, VA</td>
-      <td>United States</td>
-      <td>36.922223</td>
-      <td>-81.878056</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Fatal(3)</td>
-      <td>Destroyed</td>
-      <td>NaN</td>
-      <td>N5142R</td>
-      <td>Cessna</td>
-      <td>172M</td>
-      <td>No</td>
-      <td>1.0</td>
-      <td>Reciprocating</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Personal</td>
-      <td>NaN</td>
-      <td>3.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-      <td>Probable Cause</td>
-      <td>26-02-2007</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>20001218X45448</td>
-      <td>Accident</td>
-      <td>LAX96LA321</td>
-      <td>1977-06-19</td>
-      <td>EUREKA, CA</td>
-      <td>United States</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Fatal(2)</td>
-      <td>Destroyed</td>
-      <td>NaN</td>
-      <td>N1168J</td>
-      <td>Rockwell</td>
-      <td>112</td>
-      <td>No</td>
-      <td>1.0</td>
-      <td>Reciprocating</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Personal</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-      <td>Probable Cause</td>
-      <td>12-09-2000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>20041105X01764</td>
-      <td>Accident</td>
-      <td>CHI79FA064</td>
-      <td>1979-08-02</td>
-      <td>Canton, OH</td>
-      <td>United States</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Fatal(1)</td>
-      <td>Destroyed</td>
-      <td>NaN</td>
-      <td>N15NY</td>
-      <td>Cessna</td>
-      <td>501</td>
-      <td>No</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Personal</td>
-      <td>NaN</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>VMC</td>
-      <td>Approach</td>
-      <td>Probable Cause</td>
-      <td>16-04-1980</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 #loading the other dataset
 state_codes = pd.read_csv('USState_Codes.csv')
 state_codes.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>US_State</th>
-      <th>Abbreviation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Alabama</td>
-      <td>AL</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Alaska</td>
-      <td>AK</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Arizona</td>
-      <td>AZ</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Arkansas</td>
-      <td>AR</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>California</td>
-      <td>CA</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -470,39 +185,12 @@ aviation_cleaned = aviation_data.dropna(subset = ['Make', 'Model'])
 aviation_cleaned.shape
 ```
 
-
-
-
-    (88744, 14)
-
-
-
 Now using the `value_counts()` method, Let's check the distribution of data i.e., unique make and frequency of each.
 
 
 ```python
 # Number of incidents per model
 make_counts = aviation_cleaned['Make'].value_counts()
-make_counts
-```
-
-
-
-
-    Make
-    Cessna           22219
-    Piper            12028
-    CESSNA            4918
-    Beech             4330
-    PIPER             2840
-                     ...  
-    Conrad Menzel        1
-    Blucher              1
-    Gideon               1
-    Brault               1
-    ROYSE RALPH L        1
-    Name: count, Length: 8224, dtype: int64
-
 
 
 Now from what we can see, we notice that we have same Makes but different capitalization e.g., (`Cessna` & `CESSNA`, `PIPER` & `Piper`). I decided to convert all the Strings in the `Make` column into Capitalized case to ensure uniformity. Moreover, it is noted that  `Hawker beech`,`Hawker beechcraft corp.` & `Hawker beechcraft corporation` all which refer to the same make but treated differently in this case. So I will Unify them as well.
@@ -572,39 +260,7 @@ make_counts = aviation_cleaned['Make'].value_counts()
 ```python
 # Let's get the top 20 makes to keep the plot readable
 low_make_counts = make_counts.tail(20)
-low_make_counts
-```
 
-
-
-
-    Make
-    Pank                        1
-    Mckean                      1
-    S. piccolotto/dave morss    1
-    Lewis-pexton                1
-    Denzer                      1
-    Aune                        1
-    Seattle aerotech            1
-    Fay                         1
-    Lonnie w. ratliff           1
-    Bumgarner                   1
-    Lidster                     1
-    Murawski                    1
-    Wsk pzl swidnik             1
-    Castle                      1
-    Quinn                       1
-    Meeuwsen gordon             1
-    Hulle                       1
-    Dorfman,william a.          1
-    Firm                        1
-    Royse ralph l               1
-    Name: count, dtype: int64
-
-
-
-
-```python
 # Plot the bar plot for the top makes
 plt.figure(figsize=(12, 8))
 sns.barplot(x=low_make_counts.values, y=low_make_counts.index, palette='viridis')
@@ -616,12 +272,6 @@ plt.ylabel('Make of Aircraft');
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_30_0.png)
-    
-
-
-From the above graph, we notice that each Make in the Lowest 20 has 1 incident. From this alone, we cannot determine which would be the lower risk. 
 
 The `Model` column appears to be written in majorly uppercase. Just to be sure and ensure standardization, I am going to change every entry into uppercase by using the `str.upper()` method.
 
@@ -651,14 +301,6 @@ plt.ylabel('Model of Aircraft');
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_35_0.png)
-    
-
-
-From the above graph, the bottom 20 Models have an incident frequency of 1. From this alone, we cannot determine which aircraft carries a lower risk. However, this combined with other factors might shed more light.
-
-
 ```python
 #create a dataframe that stores incident counts. Include the Make and Model
 incident_counts = aviation_cleaned.groupby(['Make', 'Model']).size().reset_index(name='Incident.Count')
@@ -667,29 +309,6 @@ incident_counts = aviation_cleaned.groupby(['Make', 'Model']).size().reset_index
 print(incident_counts.sort_values(by='Incident.Count', ascending=False).head(20))
 
 ```
-
-                        Make      Model  Incident.Count
-    4038              Cessna        152            2363
-    4062              Cessna        172            1752
-    4113              Cessna       172N            1163
-    13396              Piper  PA-28-140             931
-    4011              Cessna        150             829
-    4111              Cessna       172M             798
-    4116              Cessna       172P             687
-    4170              Cessna        182             659
-    4146              Cessna        180             621
-    4037              Cessna       150M             585
-    13288              Piper      PA-18             578
-    13406              Piper  PA-28-180             572
-    13297              Piper  PA-18-150             571
-    13405              Piper  PA-28-161             565
-    13413              Piper  PA-28-181             529
-    1961                Bell       206B             515
-    2597              Boeing        737             488
-    13553              Piper  PA-38-112             468
-    4036              Cessna       150L             460
-    8706   Hawker beechcraft        A36             419
-    
 
 Now let's visualize the number of incidents per make/model. And since we want the lowest risk i.e., with lower incidents, we will plot for the lowest 20. 
 
@@ -708,13 +327,7 @@ plt.title('Number of Incidents per Make/Model of Aircraft (Lowest 20)')
 plt.xlabel('Number of Incidents')
 plt.ylabel('Make/Model of Aircraft')
 plt.xlim(0, 5);
-
-```
-
-
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_39_0.png)
-    
+```  
 
 
 We notice that we have several Make/Model aircraft combinations have just 1 incident. This becomes difficult to select the lowest risk of them all as there is no way to differentiate them. 
@@ -733,24 +346,6 @@ aviation_cleaned['Injury.Severity'].value_counts()
 
 
 
-
-    Injury.Severity
-    Non-Fatal     67290
-    Fatal(1)       6157
-    Fatal          5248
-    Fatal(2)       3698
-    Incident       2209
-                  ...  
-    Fatal(270)        1
-    Fatal(60)         1
-    Fatal(43)         1
-    Fatal(143)        1
-    Fatal(230)        1
-    Name: count, Length: 109, dtype: int64
-
-
-
-
 ```python
 # aviation_cleaned['Injury.Severity'].unique()
 ```
@@ -759,134 +354,6 @@ aviation_cleaned['Injury.Severity'].value_counts()
 ```python
 aviation_cleaned.head()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Event.Id</th>
-      <th>Event.Date</th>
-      <th>Location</th>
-      <th>Investigation.Type</th>
-      <th>Injury.Severity</th>
-      <th>Aircraft.damage</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Total.Fatal.Injuries</th>
-      <th>Total.Serious.Injuries</th>
-      <th>Total.Minor.Injuries</th>
-      <th>Total.Uninjured</th>
-      <th>Weather.Condition</th>
-      <th>Broad.phase.of.flight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>20001218X45444</td>
-      <td>1948-10-24 00:00:00</td>
-      <td>MOOSE CREEK, ID</td>
-      <td>Accident</td>
-      <td>Fatal(2)</td>
-      <td>Destroyed</td>
-      <td>Stinson</td>
-      <td>108-3</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>20001218X45447</td>
-      <td>1962-07-19 00:00:00</td>
-      <td>BRIDGEPORT, CA</td>
-      <td>Accident</td>
-      <td>Fatal(4)</td>
-      <td>Destroyed</td>
-      <td>Piper</td>
-      <td>PA24-180</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Unknown</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20061025X01555</td>
-      <td>1974-08-30 00:00:00</td>
-      <td>Saltville, VA</td>
-      <td>Accident</td>
-      <td>Fatal(3)</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>172M</td>
-      <td>3.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>20001218X45448</td>
-      <td>1977-06-19 00:00:00</td>
-      <td>EUREKA, CA</td>
-      <td>Accident</td>
-      <td>Fatal(2)</td>
-      <td>Destroyed</td>
-      <td>Rockwell</td>
-      <td>112</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>20041105X01764</td>
-      <td>1979-08-02 00:00:00</td>
-      <td>Canton, OH</td>
-      <td>Accident</td>
-      <td>Fatal(1)</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>501</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>VMC</td>
-      <td>Approach</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
 
 
 
@@ -911,136 +378,6 @@ aviation_cleaned_copy.head()
 
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Event.Id</th>
-      <th>Event.Date</th>
-      <th>Location</th>
-      <th>Investigation.Type</th>
-      <th>Injury.Severity</th>
-      <th>Aircraft.damage</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Total.Fatal.Injuries</th>
-      <th>Total.Serious.Injuries</th>
-      <th>Total.Minor.Injuries</th>
-      <th>Total.Uninjured</th>
-      <th>Weather.Condition</th>
-      <th>Broad.phase.of.flight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>20001218X45444</td>
-      <td>1948-10-24 00:00:00</td>
-      <td>MOOSE CREEK, ID</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Stinson</td>
-      <td>108-3</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>20001218X45447</td>
-      <td>1962-07-19 00:00:00</td>
-      <td>BRIDGEPORT, CA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Piper</td>
-      <td>PA24-180</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Unknown</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20061025X01555</td>
-      <td>1974-08-30 00:00:00</td>
-      <td>Saltville, VA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>172M</td>
-      <td>3.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>20001218X45448</td>
-      <td>1977-06-19 00:00:00</td>
-      <td>EUREKA, CA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Rockwell</td>
-      <td>112</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>20041105X01764</td>
-      <td>1979-08-02 00:00:00</td>
-      <td>Canton, OH</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>501</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>VMC</td>
-      <td>Approach</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 aviation_cleaned_copy.isnull().sum()
 ```
@@ -1063,8 +400,6 @@ aviation_cleaned_copy.isnull().sum()
     Weather.Condition          4438
     Broad.phase.of.flight     27090
     dtype: int64
-
-
 
 
 ```python
@@ -1099,15 +434,6 @@ plt.xticks(rotation=45);
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_50_0.png)
-    
-
-
-From the plot above, most aircraft accidents/incidents result in fatalities. 
-Now, we need to investigate the Injury Severity per Make/Model.
-
-
 ```python
 #plot graph to show injury severity per Make/Model. We will take the least 20 .
 
@@ -1131,10 +457,7 @@ plt.xlim(0, 5);
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_52_0.png)
-    
-
+ 
 
 From the above plot, we notice that aircrafts of that even in the lower 20 Incident counts, most incidents/accidents result in fatalities. 
 However, we still have no way to narrow it down, as 13,906 Make/Model combinations have an incident frequency of 1.
@@ -1182,9 +505,6 @@ plt.ylabel('Count');
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_58_0.png)
-    
 
 
 We notice that most aircrafts sustained `Substantial` damage in the event of an incident.
@@ -1212,11 +532,6 @@ plt.legend(title='Aircraft Damage');
 plt.xlim(0, 5);
 
 ```
-
-
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_60_0.png)
-    
 
 
 
@@ -1272,10 +587,6 @@ plt.xticks(rotation = 90);
 
 ```
 
-
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_65_0.png)
-    
 
 
 It is important to note that majority of this data is missing. It might therefore not provide a clear picture for interpretation. 
@@ -1359,9 +670,6 @@ plt.ylabel('Count');
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_75_0.png)
-    
 
 
 Most Incidents/Accidents occurred in VMC. This would be ideal conditions for flights, it is therefore investigating further on what would be contributing to such high incident/accident frequency.
@@ -1388,10 +696,7 @@ plt.xlim(0, 5);
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_77_0.png)
-    
-
+   
 
 The graph above shows the lowest 20 Make/Model combinations by incident Count and the weather conditions under which their accidents/incidents occurred.
 
@@ -1470,156 +775,6 @@ aviation_cleaned_copy6.tail()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Event.Id</th>
-      <th>Event.Date</th>
-      <th>Location</th>
-      <th>Investigation.Type</th>
-      <th>Injury.Severity</th>
-      <th>Aircraft.damage</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Total.Fatal.Injuries</th>
-      <th>Total.Serious.Injuries</th>
-      <th>Total.Minor.Injuries</th>
-      <th>Total.Uninjured</th>
-      <th>Weather.Condition</th>
-      <th>Broad.phase.of.flight</th>
-      <th>Severity.Score</th>
-      <th>Incident.Count</th>
-      <th>Likelihood.Score</th>
-      <th>ERCS.Score</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>88739</th>
-      <td>20221227106491</td>
-      <td>2022-12-26 00:00:00</td>
-      <td>Annapolis, MD</td>
-      <td>Accident</td>
-      <td>Minor</td>
-      <td>Missing</td>
-      <td>Piper</td>
-      <td>PA-28-151</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>Missing</td>
-      <td>Missing</td>
-      <td>5.00</td>
-      <td>177</td>
-      <td>1</td>
-      <td>5.00</td>
-    </tr>
-    <tr>
-      <th>88740</th>
-      <td>20221227106494</td>
-      <td>2022-12-26 00:00:00</td>
-      <td>Hampton, NH</td>
-      <td>Accident</td>
-      <td>Unknown</td>
-      <td>Missing</td>
-      <td>Bellanca</td>
-      <td>7ECA</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>Missing</td>
-      <td>Missing</td>
-      <td>0.00</td>
-      <td>122</td>
-      <td>1</td>
-      <td>0.00</td>
-    </tr>
-    <tr>
-      <th>88741</th>
-      <td>20221227106497</td>
-      <td>2022-12-26 00:00:00</td>
-      <td>Payson, AZ</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Substantial</td>
-      <td>American champion aircraft</td>
-      <td>8GCBC</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>VMC</td>
-      <td>Missing</td>
-      <td>0.50</td>
-      <td>14</td>
-      <td>1</td>
-      <td>0.50</td>
-    </tr>
-    <tr>
-      <th>88742</th>
-      <td>20221227106498</td>
-      <td>2022-12-26 00:00:00</td>
-      <td>Morgan, UT</td>
-      <td>Accident</td>
-      <td>Unknown</td>
-      <td>Missing</td>
-      <td>Cessna</td>
-      <td>210N</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>Missing</td>
-      <td>Missing</td>
-      <td>0.00</td>
-      <td>56</td>
-      <td>1</td>
-      <td>0.00</td>
-    </tr>
-    <tr>
-      <th>88743</th>
-      <td>20221230106513</td>
-      <td>2022-12-29 00:00:00</td>
-      <td>Athens, GA</td>
-      <td>Accident</td>
-      <td>Minor</td>
-      <td>Missing</td>
-      <td>Piper</td>
-      <td>PA-24-260</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>Missing</td>
-      <td>Missing</td>
-      <td>2.75</td>
-      <td>118</td>
-      <td>1</td>
-      <td>2.75</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
 
 ```python
 # Create a boxplot of ERCS scores
@@ -1635,10 +790,7 @@ plt.grid(True);
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_86_0.png)
-    
-
+  
 
 From the graph above, we notice that most planes have an ERCS score of below 10, Implying that they carry a lower risk. Moreover, there are outliers with very high scores. From this, it would be advisable to invest in any aircraft with an ERCS score of less than 10.
 
@@ -1670,161 +822,6 @@ aviation_cleaned_copy6.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Event.Id</th>
-      <th>Event.Date</th>
-      <th>Location</th>
-      <th>Investigation.Type</th>
-      <th>Injury.Severity</th>
-      <th>Aircraft.damage</th>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Total.Fatal.Injuries</th>
-      <th>Total.Serious.Injuries</th>
-      <th>Total.Minor.Injuries</th>
-      <th>Total.Uninjured</th>
-      <th>Weather.Condition</th>
-      <th>Broad.phase.of.flight</th>
-      <th>Severity.Score</th>
-      <th>Incident.Count</th>
-      <th>Likelihood.Score</th>
-      <th>ERCS.Score</th>
-      <th>Risk.Category</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>20001218X45444</td>
-      <td>1948-10-24 00:00:00</td>
-      <td>MOOSE CREEK, ID</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Stinson</td>
-      <td>108-3</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Cruise</td>
-      <td>10.000000</td>
-      <td>98</td>
-      <td>1</td>
-      <td>10.000000</td>
-      <td>Medium Risk</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>20001218X45447</td>
-      <td>1962-07-19 00:00:00</td>
-      <td>BRIDGEPORT, CA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Piper</td>
-      <td>PA24-180</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>UNK</td>
-      <td>Unknown</td>
-      <td>10.000000</td>
-      <td>4</td>
-      <td>1</td>
-      <td>10.000000</td>
-      <td>Medium Risk</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20061025X01555</td>
-      <td>1974-08-30 00:00:00</td>
-      <td>Saltville, VA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>172M</td>
-      <td>3.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-      <td>10.000000</td>
-      <td>798</td>
-      <td>2</td>
-      <td>20.000000</td>
-      <td>Medium Risk</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>20001218X45448</td>
-      <td>1977-06-19 00:00:00</td>
-      <td>EUREKA, CA</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Rockwell</td>
-      <td>112</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>IMC</td>
-      <td>Cruise</td>
-      <td>10.000000</td>
-      <td>9</td>
-      <td>1</td>
-      <td>10.000000</td>
-      <td>Medium Risk</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>20041105X01764</td>
-      <td>1979-08-02 00:00:00</td>
-      <td>Canton, OH</td>
-      <td>Accident</td>
-      <td>Fatal</td>
-      <td>Destroyed</td>
-      <td>Cessna</td>
-      <td>501</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>VMC</td>
-      <td>Approach</td>
-      <td>6.666667</td>
-      <td>31</td>
-      <td>1</td>
-      <td>6.666667</td>
-      <td>Low Risk</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
@@ -1846,11 +843,6 @@ plt.xlabel('ERCS Score')
 plt.xticks(rotation=90);
 # plt.legend();
 ```
-
-
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_91_0.png)
-    
 
 
 From the above graph, we now have a better picture than before on what the company could invest in, i.e., those in Low Risk category.
@@ -1914,9 +906,6 @@ plt.ylabel('Incident Count');
 ```
 
 
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_97_0.png)
-    
 
 
 
@@ -1944,11 +933,6 @@ plt.ylabel('Make/Model')
 plt.xlim(0,5)
 plt.show()
 ```
-
-
-    
-![png](aviation-accident-analysis_files/aviation-accident-analysis_98_0.png)
-    
 
 
 ## 7. Conclusions
