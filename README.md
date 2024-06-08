@@ -62,6 +62,12 @@ plt.show()
 
     
 ![png](aviation-accident-analysis_files/aviation-accident-analysis_98_0.png)
+
+
+![png](aviation-accident-analysis_files/risk_combined_uninjured.png)
+
+
+![png](aviation-accident-analysis_files/Total_Uninjured_Make_Model.png)
     
 
 
