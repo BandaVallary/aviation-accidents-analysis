@@ -1,9 +1,14 @@
 # Aviation Accidents Analysis - Phase 1 Project
 ## Project Overview
 
-Your company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. You are charged with determining which aircraft are the lowest risk for the company to start this new business endeavor. You must then translate your findings into actionable insights that the head of the new aviation division can use to help decide which aircraft to purchase.
+The aviation industry is a critical sector of the global economy. It is a vital link for transportation, commerce, and tourism. Over the years, it has experienced steady growth due to factors such as increasing global connectivity, rising disposable incomes, and technological advancements in aircraft design and operations. According to industry reports, air travel demand has consistently risen, with passenger numbers and cargo volumes showing upward trajectories year over year. From Boeing's Commercial Outlook report 2023-2042, this growth is projected to continue for the foreseeable future. This presents investment opportunities in both the commercial and private entities.
+
+However, as with any new venture, there are risks involved. The purpose of this project is to examine common risks associated with aircraft operations and thus provide insights on the best way forward.
 
 ## Business Understanding
+
+Your company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. You are charged with determining which aircraft are the lowest risk for the company to start this new business endeavor. You must then translate your findings into actionable insights that the head of the new aviation division can use to help decide which aircraft to purchase.
+
 
 **Problem Statement :** *Determine which aircraft are the lowest risk for the company to purchase and operate, providing actionable insights for decision-making.*
 
@@ -78,7 +83,7 @@ To improve the analysis and support decision-making, we combine our evaluation m
 
 
 
-## 7. Conclusions
+##  Conclusions
 1. Most aircraft Accidents/Incidents occurred during VMC(Visual Meteorological Conditions).
 2. Most aircraft incidents/accidents per Make/Model with lower risk have similar incident frequencies and risk scores making it difficult to select just one or two.
 3. Most aircrafts sustain substantial damage in the event of an accident.
