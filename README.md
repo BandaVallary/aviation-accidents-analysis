@@ -63,6 +63,7 @@ plt.show()
     
 ![png](aviation-accident-analysis_files/aviation-accident-analysis_98_0.png)
 
+The above image displays the 20 lowest Make/Model combinations by mean ERCS Score. From this alone we cannot select one with the lowest risk as they all have a mean of 0.5.
 
 ![png](aviation-accident-analysis_files/risk_combined_uninjured.png)
 
