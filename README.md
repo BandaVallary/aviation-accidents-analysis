@@ -1,7 +1,7 @@
 # Aviation Accidents Analysis - Phase 1 Project
 ## Project Overview
 
-The aviation industry is a critical sector of the global economy. It is a vital link for transportation, commerce, and tourism. Over the years, it has experienced steady growth due to factors such as increasing global connectivity, rising disposable incomes, and technological advancements in aircraft design and operations. According to industry reports, air travel demand has consistently risen, with passenger numbers and cargo volumes showing upward trajectories year over year. From Boeing's Commercial Outlook report 2023-2042, this growth is projected to continue for the foreseeable future. This presents investment opportunities in both the commercial and private entities.
+The aviation industry is a critical sector of the global economy. It is a vital link for transportation, commerce, and tourism. Over the years, it has experienced steady growth due to factors such as increasing global connectivity, rising disposable incomes, and technological advancements in aircraft design and operations. According to industry reports, air travel demand has consistently risen, with passenger numbers and cargo volumes showing upward trajectories year over year. From [Boeing's Commercial Outlook report 2023-2042](https://www.boeing.com/commercial/market/commercial-market-outlook#downloads), this growth is projected to continue for the foreseeable future. This presents investment opportunities in both the commercial and private entities.
 
 However, as with any new venture, there are risks involved. The purpose of this project is to examine common risks associated with aircraft operations and thus provide insights on the best way forward.
 
