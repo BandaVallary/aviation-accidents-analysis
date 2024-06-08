@@ -83,10 +83,10 @@ To improve the analysis and support decision-making, we combine our evaluation m
 2. Most aircraft incidents/accidents per Make/Model with lower risk have similar incident frequencies and risk scores making it difficult to select just one or two.
 3. Most aircrafts sustain substantial damage in the event of an accident.
 
-## 8. Recommendations
+##  Recommendations
 1. Given that VMC is recommended for flying, further investigation should be carried out as to what else could be contributing to this high accidents rate.
 2. Conduct further research into the lower risk category of Make/Model combinations and find other considerations e.g.,initial cost of investment.
 3. Conduct further investigation as to whether there's correllation between aircraft damage and manufacture or maintenance procedures.
 
-## 9. Data Visualization
+##  Data Visualization
 Dashboards are a powerful tool to facilitate data-driven decision making. For this project, [You can access the interactive dashboard here.](https://public.tableau.com/app/profile/vallary.banda/viz/aviation-accident-analysis/Aviation-dashboard)
