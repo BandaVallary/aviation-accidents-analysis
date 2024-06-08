@@ -63,13 +63,19 @@ plt.show()
     
 ![png](aviation-accident-analysis_files/aviation-accident-analysis_98_0.png)
 
-The above image displays the 20 lowest Make/Model combinations by mean ERCS Score. From this alone we cannot select one with the lowest risk as they all have a mean of 0.5.
+The above image displays the 20 lowest Make/Model combinations by mean ERCS Score. From this alone we cannot select one with the lowest risk as they all have a mean of 0.5. Therfore, we combine our evaluation metrics to draw a clearer picture. 
+Our Evaluation metrics are : 1. the quantitative risk score i.e. ERCS score  2. The proportion of uninjured passengers.
 
-![png](aviation-accident-analysis_files/risk_combined_uninjured.png)
+Below we see the top 20 Make/Model combinations with the highest number of uninjured passengers. We note that Cessna, Grumman and Piper makes along with the models shown have the highest number of uninjured passengers, thus present the lowest risk.
+
 
 
 ![png](aviation-accident-analysis_files/Total_Uninjured_Make_Model.png)
     
+To improve the analysis and support decision-making, we combine our evaluation metrics in one and thus result in the image below. From this Air Tractor G164A, Piper 180 & Piper PA-18-150 are the the top 3 lowest risk aircraft make/model combinations. We can select the top 20 lowest risk aircafts presented here and investigate further into other determinants such as initial capital investment to further narrow down the options.
+
+![png](aviation-accident-analysis_files/risk_combined_uninjured.png)
+
 
 
 ## 7. Conclusions
